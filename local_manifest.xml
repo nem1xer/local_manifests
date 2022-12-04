@@ -13,7 +13,7 @@
     <project path="vendor/samsung" name="Exynos7420/proprietary_vendor_samsung" remote="github" revision="lineage-18.1" />
 	
     <!-- Hardware -->
-    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1" />
+    <project path="hardware/samsung" name="nem1xer/android_hardware_samsung" remote="github" revision="arrow-12.1" />
     <project path="hardware/samsung_slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1" />
