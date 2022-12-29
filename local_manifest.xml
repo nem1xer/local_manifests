@@ -2,21 +2,17 @@
 
 <manifest>
 
-    <!--Device Trees-->
-    <project path="device/samsung/universal7420-common" name="Exynos7420/android_device_samsung_universal7420-common" remote="github" revision="lineage-18.1" />
-    <project path="device/samsung/zeroltexx" name="nem1xer/android_device_samsung_zerofltexx-1" remote="github" revision="havoc-eleven" />
+    <!--Device Tree-->
+    <project path="device/xiaomi/mido" name="nem1xer/android_device_mido" remote="github" revision="lineage-20.0" />
 
     <!--Kernel-->
-    <project path="kernel/samsung/universal7420" name="Exynos7420/android_kernel_samsung_exynos7420" remote="github" revision="lineage-18.1" />
+    <project path="kernel/xiaomi/mido" name="nem1xer/android_kernel_xiaomi_mido" remote="github" revision="lineage-20.0" />
 
-    <!-- Vendor folders -->
-    <project path="vendor/samsung" name="Exynos7420/proprietary_vendor_samsung" remote="github" revision="lineage-18.1" />
+    <!-- Vendor -->
+    <project path="vendor/xiaomi" name="nem1xer/proprietary_vendor_xiaomi" remote="github" revision="lineage-20.0" />
 	
-    <!-- Hardware -->
-    <project path="hardware/samsung" name="nem1xer/android_hardware_samsung" remote="github" revision="arrow-12.1" />
-    <project path="hardware/samsung_slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/exynos7420" name="Exynos7420/android_hardware_samsung_slsi_exynos7420" remote="github" revision="lineage-18.1" />
+    <!-- Radio -->
+    <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1" />
+    <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-18.1" />
 	
 </manifest>
