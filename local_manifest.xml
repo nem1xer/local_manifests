@@ -3,7 +3,7 @@
 <manifest>
 
     <!--Device Tree-->
-    <project path="device/xiaomi/mido" name="nem1xer/android_device_mido" remote="github" revision="lineage-20.0" />
+    <project path="device/xiaomi/mido" name="nem1xer/android_device_xiaomi_mido" remote="github" revision="lineage-20.0" />
 
     <!--Kernel-->
     <project path="kernel/xiaomi/mido" name="nem1xer/android_kernel_xiaomi_mido" remote="github" revision="lineage-20.0" />
