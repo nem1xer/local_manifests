@@ -5,6 +5,7 @@
     <!--Device Trees-->
     <project path="device/samsung/universal7420-common" name="samsungexynos7420/android_device_samsung_universal7420-common" remote="github" revision="lineage-18.1" />
     <project path="device/samsung/zeroltexx" name="nem1xer/android_device_samsung_zeroltexx" remote="github" revision="pixel-11" />
+    <project path="device/samsung/zerofltexx" name="nem1xer/android_device_samsung_zerofltexx" remote="github" revision="pixel-11" />
 
     <!--Kernel-->
     <project path="kernel/samsung/universal7420" name="samsungexynos7420/android_kernel_samsung_exynos7420" remote="github" revision="lineage-18.1" />
