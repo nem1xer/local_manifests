@@ -1,18 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
 
-    <!--Device Tree-->
-    <project path="device/xiaomi/mido" name="nem1xer/android_device_xiaomi_mido" remote="github" revision="lineage-20.0" />
+  
+    <remote  name="Nem1xx"
+           fetch="https://github.com/Nem1xx"/>
+    <remote  name="nem1xer"
+           fetch="https://github.com/nem1xer"/>
 
-    <!--Kernel-->
-    <project path="kernel/xiaomi/mido" name="nem1xer/android_kernel_xiaomi_mido" remote="github" revision="lineage-20.0" />
+ <!-- Device Tree -->
+  <project path="device/xiaomi/fleur"  name="device_xiaomi_fleur" remote="Nem1xx" revision="arrow-13.1-test"/>
 
-    <!-- Vendor -->
-    <project path="vendor/xiaomi" name="nem1xer/proprietary_vendor_xiaomi" remote="github" revision="lineage-20.0" />
-	
-    <!-- Radio -->
-    <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1" />
-    <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-18.1" />
+ <!-- Vendor -->
+  <project path="vendor/xiaomi/fleur"  name="proprietary_vendor_xiaomi_ims-fleur" remote="Nem1xx" revision="twelve"/>
+  <project path="vendor/xiaomi/fleur-prebuilt"  name="vendor_xiaomi_ims-fleur-prebuilt" remote="nem1xer" revision="13.0.8.0.SKEMIXM-MOD"/>
+
+ <!-- Replacements -->
+  <remove-project name="ArrowOS/system_bpf"/>
+  <project path="system*bpf"  name="PixelExperience/system_bpf" remote="github" revision="thirteen"/>
 	
 </manifest>
