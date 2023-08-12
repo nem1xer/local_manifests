@@ -1,20 +1,13 @@
 <manifest>
 
-  
-    <remote  name="Nem1xx"
-           fetch="https://github.com/Nem1xx"/>
-    <remote  name="nem1xer"
-           fetch="https://github.com/nem1xer"/>
+ <!-- Remotes -->
+    <remote  name="blukberry" fetch="https://gitlab.com/blukberry"/>
 
  <!-- Device Tree -->
-  <project path="device/xiaomi/fleur"  name="device_xiaomi_fleur" remote="Nem1xx" revision="arrow-13.1-test"/>
+  <project path="device/xiaomi/sea"  name="android_device_xiaomi_sea" remote="blukberry" revision="lineage-20.0"/>
 
  <!-- Vendor -->
-  <project path="vendor/xiaomi/fleur"  name="proprietary_vendor_xiaomi_ims-fleur" remote="Nem1xx" revision="twelve"/>
-  <project path="vendor/xiaomi/fleur-prebuilt"  name="vendor_xiaomi_ims-fleur-prebuilt" remote="nem1xer" revision="13.0.8.0.SKEMIXM-MOD"/>
-
- <!-- Replacements -->
-  <remove-project name="platform/system/bpf"/>
-  <project path="system/bpf"  name="PixelExperience/system_bpf" remote="github" revision="thirteen"/>
+  <project path="vendor/xiaomi/sea-ims"  name="	android_vendor_xiaomi_sea-ims" remote="blukberry" revision="lineage-20.0"/>
+  <project path="device/xiaomi/sea-vendor"  name="android_device_xiaomi_sea-vendor" remote="blukberry" revision="V14.0.7.0.THZMIXM"/>
 	
 </manifest>
